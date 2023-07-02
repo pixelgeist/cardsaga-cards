@@ -1,31 +1,31 @@
 cardset,category,class,name,version,alternate,keywords,rarity,card_sheet_count,energy,health,offense,defense,refresh,volume
-A01,Character,engineering,Mechanic,2,0,defend,COMMON,3,(1),8,4,4,8,1
-A01,Character,engineering,Mechanic,2,1,defend,COMMON,3,(1),8,4,4,8,1
-A01,Character,engineering,Technician,2,0,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
-A01,Character,engineering,Technician,2,1,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
-A01,Character,engineering,"Mechanical Engineer",2,0,"defend, counter",RARE,3,(3),12,4,4,4,1
-A01,Character,engineering,"Mechanical Engineer",2,1,"defend, counter",RARE,3,(3),12,4,4,4,1
-A01,Character,medical,Paramedic,2,0,defend,COMMON,3,(1),8,4,4,8,1
-A01,Character,medical,Paramedic,2,1,defend,COMMON,3,(1),8,4,4,8,1
-A01,Character,medical,Physician,2,0,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
-A01,Character,medical,Physician,2,1,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
-A01,Character,medical,Surgeon,2,0,"defend, counter",RARE,3,(3),12,4,4,4,1
-A01,Character,medical,Surgeon,2,1,"defend, counter",RARE,3,(3),12,4,4,4,1
-A01,Character,resources,Miner,2,0,"defend, counter",COMMON,1,14,8,4,4,8,1
-A01,Character,resources,Miner,2,1,"defend, counter",COMMON,1,14,8,4,4,8,1
-A01,Character,resources,Excavator,2,0,"defend, counter",UNCOMMON,1,24,10,4,4,6,1
-A01,Character,resources,Excavator,2,1,"defend, counter",UNCOMMON,1,24,10,4,4,6,1
-A01,Character,resources,"Mining Engineer",2,0,"defend, counter",RARE,1,34,12,4,4,4,1
-A01,Character,resources,"Mining Engineer",2,1,"defend, counter",RARE,1,34,12,4,4,4,1
-A01,Character,security,Guard,2,0,"defend, counter",COMMON,2,(2),8,8,8,8,1
-A01,Character,security,Guard,2,1,"defend, counter",COMMON,2,(2),8,8,8,8,1
-A01,Character,security,Sentry,2,0,"defend, counter",UNCOMMON,2,(3),10,10,10,6,1
-A01,Character,security,Sentry,2,1,"defend, counter",UNCOMMON,2,(3),10,10,10,6,1
-A01,Character,security,Sentinel,2,0,"defend, counter",RARE,2,(4),12,12,12,4,1
-A01,Character,security,Sentinel,2,1,"defend, counter",RARE,2,(4),12,12,12,4,1
-A01,Character,tactical,Soldier,2,0,"attack, defend, counter",COMMON,2,(2),8,8,4,8,1
-A01,Character,tactical,Soldier,2,1,"attack, defend, counter",COMMON,2,(2),8,8,4,8,1
-A01,Character,tactical,"Special Ops",2,0,"attack, defend, counter",UNCOMMON,2,(3),10,10,6,6,1
-A01,Character,tactical,"Special Ops",2,1,"attack, defend, counter",UNCOMMON,2,(3),10,10,6,6,1
-A01,Character,tactical,Officer,2,0,"attack, defend, counter",RARE,2,(4),12,12,8,4,1
-A01,Character,tactical,Officer,2,1,"attack, defend, counter",RARE,2,(4),12,12,8,4,1
+A01,Character,engineering,Mechanic,1,0,defend,COMMON,3,(1),8,4,4,8,1
+A01,Character,engineering,Mechanic,1,1,defend,COMMON,3,(1),8,4,4,8,1
+A01,Character,engineering,Technician,1,0,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
+A01,Character,engineering,Technician,1,1,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
+A01,Character,engineering,"Mechanical Engineer",1,0,"defend, counter",RARE,3,(3),12,4,4,4,1
+A01,Character,engineering,"Mechanical Engineer",1,1,"defend, counter",RARE,3,(3),12,4,4,4,1
+A01,Character,medical,Paramedic,1,0,defend,COMMON,3,(1),8,4,4,8,1
+A01,Character,medical,Paramedic,1,1,defend,COMMON,3,(1),8,4,4,8,1
+A01,Character,medical,Physician,1,0,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
+A01,Character,medical,Physician,1,1,"defend, counter",UNCOMMON,3,(2),10,4,4,6,1
+A01,Character,medical,Surgeon,1,0,"defend, counter",RARE,3,(3),12,4,4,4,1
+A01,Character,medical,Surgeon,1,1,"defend, counter",RARE,3,(3),12,4,4,4,1
+A01,Character,resources,Miner,1,0,"defend, counter",COMMON,1,14,8,4,4,8,1
+A01,Character,resources,Miner,1,1,"defend, counter",COMMON,1,14,8,4,4,8,1
+A01,Character,resources,Excavator,1,0,"defend, counter",UNCOMMON,1,24,10,4,4,6,1
+A01,Character,resources,Excavator,1,1,"defend, counter",UNCOMMON,1,24,10,4,4,6,1
+A01,Character,resources,"Mining Engineer",1,0,"defend, counter",RARE,1,34,12,4,4,4,1
+A01,Character,resources,"Mining Engineer",1,1,"defend, counter",RARE,1,34,12,4,4,4,1
+A01,Character,security,Guard,1,0,"defend, counter",COMMON,2,(2),8,8,8,8,1
+A01,Character,security,Guard,1,1,"defend, counter",COMMON,2,(2),8,8,8,8,1
+A01,Character,security,Sentry,1,0,"defend, counter",UNCOMMON,2,(3),10,10,10,6,1
+A01,Character,security,Sentry,1,1,"defend, counter",UNCOMMON,2,(3),10,10,10,6,1
+A01,Character,security,Sentinel,1,0,"defend, counter",RARE,2,(4),12,12,12,4,1
+A01,Character,security,Sentinel,1,1,"defend, counter",RARE,2,(4),12,12,12,4,1
+A01,Character,tactical,Soldier,1,0,"attack, defend, counter",COMMON,2,(2),8,8,4,8,1
+A01,Character,tactical,Soldier,1,1,"attack, defend, counter",COMMON,2,(2),8,8,4,8,1
+A01,Character,tactical,"Special Ops",1,0,"attack, defend, counter",UNCOMMON,2,(3),10,10,6,6,1
+A01,Character,tactical,"Special Ops",1,1,"attack, defend, counter",UNCOMMON,2,(3),10,10,6,6,1
+A01,Character,tactical,Officer,1,0,"attack, defend, counter",RARE,2,(4),12,12,8,4,1
+A01,Character,tactical,Officer,1,1,"attack, defend, counter",RARE,2,(4),12,12,8,4,1
