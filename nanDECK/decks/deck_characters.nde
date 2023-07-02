@@ -1,0 +1,70 @@
+LINK=../data/characters.csv
+
+UNIT=INCH
+BORDER=NONE
+PAGE=8.5,11,PORTRAIT,HV
+DPI=300
+CARDSIZE=2.5,3.5
+MARGINS = 0.5, 0.5, 0.1, 0.1
+
+[TITLE] = CASESTRING([NAME], "U")
+[UPPERCASE_CLASS] = CASESTRING([CLASS], "U")
+[LOWERCASE_CLASS] = CASESTRING([CLASS], "L")
+[LOWERCASE_CARDSET] = CASESTRING([CARDSET], "L")
+[NORMALIZED_NAME] = REPLACE(CASESTRING([NAME], "L"), " ", "_")
+[ID] = "[CARDSET] [TITLE] V.[VERSION] A.[ALTERNATE]"
+[IMAGE_FILE_PATH] = "source_images/characters/[LOWERCASE_CLASS]/[NORMALIZED_NAME]_[ALTERNATE].png"
+
+VISUAL=S, 10, 10
+;Background Rectangle(size)
+RECTANGLE=,0%,0%,100%,100%,#000000
+;Character Background Rectangle(locked)(size)
+RECTANGLE=,2.5%,2.5%,95%,95%,#D1D3D4
+;Character Image(locked)(size)
+IMAGE="1-{(IMAGE_FILE_PATH)}",[IMAGE_FILE_PATH],{100/21}%,7%,90%,90%,0,N
+;Card Border Image(locked)(size)
+IMAGE=,source_images\character_card_border.png,0%,0%,100%,100%,0,NT
+;Skill Icons(locked)(size)
+IMAGE=,source_images\slot_1_heal_2.png,0%,0%,100%,100%,0,NT
+;[Card Name]Font(size)
+FONT=Impact,12,T,#000000
+;[Card Name]Name Text(locked)(size)
+TEXT="1-{(TITLE)}",[TITLE],{5500/357}%,0.7%,80%,10%,RIGHT,TOP
+;[Category]Font (locked)(size)
+FONT=Ebrima,8,T,#ffffff
+;[Category]Card Category(size)
+TEXT="1-{(UPPERCASE_CLASS)}",[UPPERCASE_CLASS],{4750/357}%,7.7%,80%,10%,RIGHT,TOP
+;[Resources]Font(size)
+FONT=impact,14,T,#ffffff
+;[Energy]Cost Text(size)
+TEXT="1-{(ENERGY)}","[ENERGY]",{400/357}%,-0.1%,20%,10%,CENTER,CENTER
+;[Stats]Font(locked)(size)
+FONT=impact,12,T,#ffffff
+;[Stats]Health Text(locked)(size)
+TEXT="1-{(HEALTH)}",[HEALTH],{1300/357}%,10.1%,20%,10%,CENTER,CENTER
+;[Stats]Offense Font
+;FONT=impact,12,T,#ffffff
+;Offense Text(size)
+TEXT="1-{(OFFENSE)}",[OFFENSE],{1450/357}%,17.9%,20%,10%,CENTER,CENTER
+;[Stats]Defense Font
+;FONT=impact,12,T,#ffffff
+;Defense Text(locked)(size)
+TEXT="1-{(DEFENSE)}",[DEFENSE],{200/51}%,25.7%,20%,10%,CENTER,CENTER
+;[Stats]Refresh Font
+;FONT=impact,12,T,#ffffff
+;Refresh Text(locked)(size)
+TEXT="1-{(REFRESH)}",[REFRESH],{200/51}%,33.6%,20%,10%,CENTER,CENTER
+;[Cargo]Font(size)
+FONT=Ebrima,10,TB,#ffffff
+;[Cargo]Volume(locked)(size)
+TEXT=,1,{50/7}%,89.9%,20%,10%,CENTER,CENTER
+;[Copyright]Font(size)
+FONT=Ebrima,6,T,#7F7F7F
+;[Copyright]Copyright Text
+;TEXT=,"© PIXELGEIST GAMES",{3800/119}%,96.4%,50%,10%,LEFT,TOP
+;[Footer Version]Version Text(size)
+TEXT="1-{(ID)}",[ID],{1750/51}%,96.4%,60%,10%,RIGHT,TOP
+ENDVISUAL
+
+SAVE = "1-{(NAME)}", REPLACE(CASESTRING("cards\characters\[NAME]_[VERSION]_[ALTERNATE].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5
+;DISPLAY = "cards\tts\characters_a01_2.png", 1, 30, 6
