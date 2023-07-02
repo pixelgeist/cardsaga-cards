@@ -66,5 +66,5 @@ FONT=Ebrima,6,T,#7F7F7F
 TEXT="1-{(ID)}",[ID],{1750/51}%,96.4%,60%,10%,RIGHT,TOP
 ENDVISUAL
 
-SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\cards\characters\[NAME]_[ALTERNATE]_[VERSION].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5
+SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\..\images\characters\[NAME]_[ALTERNATE]_[VERSION].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5
 ;DISPLAY = "cards\tts\characters_a01_2.png", 1, 30, 6
