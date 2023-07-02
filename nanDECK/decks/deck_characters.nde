@@ -16,8 +16,6 @@ MARGINS = 0.5, 0.5, 0.1, 0.1
 [IMAGE_FILE_PATH] = "..\source_images\characters\[LOWERCASE_CLASS]\[NORMALIZED_NAME]_[ALTERNATE].png"
 
 VISUAL=S, 10, 10
-;Background Rectangle(size)
-RECTANGLE=,0%,0%,100%,100%,#000000
 ;Character Background Rectangle(locked)(size)
 RECTANGLE=,2.5%,2.5%,95%,95%,#D1D3D4
 ;Character Image(locked)(size)
@@ -66,5 +64,6 @@ FONT=Ebrima,6,T,#7F7F7F
 TEXT="1-{(ID)}",[ID],{1750/51}%,96.4%,60%,10%,RIGHT,TOP
 ENDVISUAL
 
-SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\..\images\characters\[NAME]_[ALTERNATE]_[VERSION].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5
+SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\..\images\characters\[NAME]_[ALTERNATE]_[VERSION].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5, , , "..\source_images\transparency_mask.png", 750, 1050, 24
+SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\..\images\characters\[NAME]_[ALTERNATE]_[VERSION]_small.png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5, , , "..\source_images\transparency_mask.png", 375, 525, 24
 ;DISPLAY = "cards\tts\characters_a01_2.png", 1, 30, 6
