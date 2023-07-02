@@ -12,7 +12,7 @@ MARGINS = 0.5, 0.5, 0.1, 0.1
 [LOWERCASE_CLASS] = CASESTRING([CLASS], "L")
 [LOWERCASE_CARDSET] = CASESTRING([CARDSET], "L")
 [NORMALIZED_NAME] = REPLACE(CASESTRING([NAME], "L"), " ", "_")
-[ID] = "[CARDSET] [TITLE] V.[VERSION] A.[ALTERNATE]"
+[ID] = "[CARDSET] [TITLE] A.[ALTERNATE] V.[VERSION]"
 [IMAGE_FILE_PATH] = "..\source_images\characters\[LOWERCASE_CLASS]\[NORMALIZED_NAME]_[ALTERNATE].png"
 
 VISUAL=S, 10, 10
@@ -66,5 +66,5 @@ FONT=Ebrima,6,T,#7F7F7F
 TEXT="1-{(ID)}",[ID],{1750/51}%,96.4%,60%,10%,RIGHT,TOP
 ENDVISUAL
 
-SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\cards\characters\[NAME]_[VERSION]_[ALTERNATE].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5
+SAVE = "1-{(NAME)}", REPLACE(CASESTRING("..\cards\characters\[NAME]_[ALTERNATE]_[VERSION].png", "L"), " ", "_", "I"), 0, 0, 2.5, 3.5
 ;DISPLAY = "cards\tts\characters_a01_2.png", 1, 30, 6
